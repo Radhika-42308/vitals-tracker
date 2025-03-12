@@ -1,0 +1,42 @@
+[debug] [2025-03-12T16:16:05.609Z] ----------------------------------------------------------------------
+[debug] [2025-03-12T16:16:05.612Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-12T16:16:05.613Z] CLI Version:   13.34.0
+[debug] [2025-03-12T16:16:05.613Z] Platform:      win32
+[debug] [2025-03-12T16:16:05.613Z] Node Version:  v22.14.0
+[debug] [2025-03-12T16:16:05.613Z] Time:          Wed Mar 12 2025 13:16:05 GMT-0300 (Atlantic Daylight Time)
+[debug] [2025-03-12T16:16:05.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-12T16:16:05.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-12T16:16:05.621Z] > authorizing via signed-in user (radhikaramachandran1990@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\vitals-tracker
+
+[debug] [2025-03-12T16:19:09.660Z] ----------------------------------------------------------------------
+[debug] [2025-03-12T16:19:09.663Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-12T16:19:09.663Z] CLI Version:   13.34.0
+[debug] [2025-03-12T16:19:09.663Z] Platform:      win32
+[debug] [2025-03-12T16:19:09.663Z] Node Version:  v22.14.0
+[debug] [2025-03-12T16:19:09.663Z] Time:          Wed Mar 12 2025 13:19:09 GMT-0300 (Atlantic Daylight Time)
+[debug] [2025-03-12T16:19:09.664Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-12T16:19:09.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-12T16:19:09.668Z] > authorizing via signed-in user (radhikaramachandran1990@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\vitals-tracker
+

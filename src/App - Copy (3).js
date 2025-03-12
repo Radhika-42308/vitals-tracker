@@ -6,8 +6,7 @@ const App = () => {
     name: "",
     ID: "",
     heartRate: "",
-    bloodPressureSystolic: "",
-    bloodPressureDiastolic: "",
+    bloodPressure: "",
     oxygenLevel: "",
     bodyTemperature: "",
     sleepTime: "",
@@ -23,17 +22,7 @@ const App = () => {
     try {
       await addDoc(collection(db, "vitalSigns"), formData);
       alert("Vital signs submitted successfully!");
-      setFormData({
-        name: "",
-        ID: "",
-        heartRate: "",
-        bloodPressureSystolic: "",
-        bloodPressureDiastolic: "",
-        oxygenLevel: "",
-        bodyTemperature: "",
-        sleepTime: "",
-        date: ""
-      });
+      setFormData({ name: "", ID: "", heartRate: "", bloodPressure: "", oxygenLevel: "", bodyTemperature: "", sleepTime: "", date: "" });
     } catch (error) {
       console.error("Error adding document: ", error);
     }
@@ -60,12 +49,8 @@ const App = () => {
           <input type="number" name="heartRate" value={formData.heartRate} onChange={handleChange} required style={inputStyle} />
         </div>
         <div style={{ marginBottom: "10px" }}>
-          <label>Blood Pressure (Systolic):</label>
-          <input type="number" name="bloodPressureSystolic" value={formData.bloodPressureSystolic} onChange={handleChange} required style={inputStyle} />
-        </div>
-        <div style={{ marginBottom: "10px" }}>
-          <label>Blood Pressure (Diastolic):</label>
-          <input type="number" name="bloodPressureDiastolic" value={formData.bloodPressureDiastolic} onChange={handleChange} required style={inputStyle} />
+          <label>Blood Pressure (e.g., 120/80):</label>
+          <input type="text" name="bloodPressure" value={formData.bloodPressure} onChange={handleChange} required style={inputStyle} />
         </div>
         <div style={{ marginBottom: "10px" }}>
           <label>Oxygen Level (%):</label>
